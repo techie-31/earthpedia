@@ -1,0 +1,185 @@
+
+/* 480 pixel design for mobile */
+
+@media (max-width:480px) {
+
+    /* * {
+        border: solid grey 0.2px;
+    } */
+
+    html {
+        font-size: 40%;
+        /* 1rem = 6.5px */
+    }
+
+
+    /* Header */
+
+
+    header p {
+        font-size: large;
+    }
+
+    .paragraph2 {
+        margin: 30px 10px 0px 40px;
+    }
+
+
+    /* Atmosphere */
+
+
+    #layers {
+        width: 70%;
+        height: auto;
+        margin: 12.5rem 0 0 5rem;
+    }
+
+    .at-div {
+        width: 100%;
+        height: auto;
+        margin: 0 0 10.1rem -0.2rem;
+        display: flex;
+    }
+
+    #text-layout {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        font-size: xx-large;
+        display: block;
+    }
+
+    .defination {
+        font-size: large;
+        width: 85%;
+        height: auto;
+        left: 5.8rem;
+        bottom: 10%;
+    }
+
+    .atmosphere2 {
+        margin-top: -3rem;
+    }
+
+    .atmosphere2 img {
+        display: none;
+    }
+    
+    .atmosphere2 dl {
+        padding: 0 0.76rem 0 0.76rem;
+    }
+    
+    .main-function {
+        position: relative;
+    }
+
+    .function {
+        width: 100%;
+        height: auto;
+    }
+
+    .function img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: none;
+    }
+
+    .function h2 {
+        bottom: 41rem;
+        left: 1rem;
+        font-size: x-large;
+        position: none;
+    }
+
+    .function ol {
+        left: 7rem;
+        top: 14.3rem;
+        font-size: medium;
+        width: 86%;
+        position: inherit;
+    }
+
+    #atm{
+        width: 80%;
+        height: auto;
+        border-radius: 5rem;
+        position: initial;
+        margin: 16.15rem 0 3.84rem 5rem;
+        box-shadow: none;
+    }
+
+
+    /* Layers of earth */
+
+
+    #go {
+        display: none;
+        width: 88%;
+        flex-flow: wrap;
+    }
+
+    .defi-layes h1{
+        font-size: xx-large;
+        position: initial;
+    }
+
+    .defi-layes p {
+        font-size: large;
+        padding: 0 10px 0 10px;
+      }
+
+      .defi-layes img{
+        width: 80%;
+        height: auto;
+      }
+
+      .defi-layes{
+        position: initial;
+        width: 100%;
+        height: auto;
+      }
+
+      .earth-layers{
+        display: flex;
+      }
+
+      .earth-layers1 img{
+        display: none;
+      }
+
+      .earth-layers1 dl{
+        margin: 2.5rem 1rem 0 1rem;
+        font-size: medium;
+      }
+
+      .earth-layers1 p {
+        margin: 2.5rem 1rem 0 1rem;
+        font-size: medium;
+      }
+
+
+      /* Footer */
+
+
+      footer{
+        height: 15.07rem;
+    }
+    .content{
+        margin-top: 6.92rem;
+    }
+    .socialmedia{
+        right: 13.84rem;
+        top:7.69rem;
+    }
+
+}
+
+
+@media (max-width:260px){
+    html{
+        font-size: 20%;
+    }
+}

@@ -1,0 +1,150 @@
+footer {
+    background-color: #8c8c8c;
+    height: 5rem;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    padding: 1.8rem;
+    position: relative;
+    font-size: large;
+    /* display: flex; */
+}
+
+/* .butoon {
+    position: absolute;
+    color: white;
+    background: rgb(212, 23, 70);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 15px 0 5px 0;
+    box-shadow: 1px 1px 13px -1px white;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px 10px 13px 12px;
+    filter: blur(2px);
+    opacity: .70;
+    transition-property: border-radius opacity filter;
+    transition-duration: 1s;
+    right: 10px;
+    top: 2px;
+    text-shadow: 5px 3px 6px black;
+}
+
+.butoon:hover {
+    border-radius: 117px 77px;
+    opacity: 1;
+    filter: blur(0);
+} */
+
+.text {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    word-spacing: .5rem;
+    transition-property: border-bottom;
+    transition: 1s;
+    height: 2.4rem;
+    cursor: none;
+    /* position: relative; */
+    /* word-wrap: break-word; */
+    /* text-align: center; */
+}
+
+.h2::after {
+    content: "";
+    background-color: rgb(228, 25, 25);
+    position: absolute;
+    width: 0;
+    height: .1rem;
+    left: 0;
+    bottom: 0;
+}
+
+.h2:hover::after {
+    border-bottom: solid rgba(241, 12, 12, 0.651);
+    animation-name: line;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+    animation-direction: normal;  
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: 0;
+
+}
+
+@keyframes line {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+footer .h2{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 3.3rem;
+    cursor: none;
+    /* font-size: large; */
+}
+
+.content{
+    text-align: center;
+    margin-top: 1.0rem;
+}
+
+.fop{
+    text-align: center;
+    /* height: 27px; */
+}
+
+.socialmedia > a > img{
+    height: 2.5rem;
+    width: auto;
+    /* float: right; */
+    /* margin: 15px; */
+    position: absolute;
+    transition: all 0.1s;
+}
+
+.socialmedia > a {
+    /* border: solid black; */
+    border-radius: 50%;
+    /* background-color: aqua; */
+    position: relative;
+    height: 4.0rem;
+    width: 4.0rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    margin: 0 1.5rem;
+}
+
+.socialmedia > a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.socialmedia > a:hover > img{
+    transform: rotate(10deg);
+}
+
+.socialmedia{
+    display: inline-block;
+    position: absolute;
+    right: .5rem;
+    top: 2.8rem;
+}
+

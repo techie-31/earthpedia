@@ -1,0 +1,147 @@
+@media (max-width:480px)  {
+
+    /* *{
+        border: solid black;
+    }
+     */
+    .earth {
+        font-size: 50px;
+        padding:77px 0 0 65px ;
+    }
+    
+     header p{
+        font-size: large;
+    }
+    
+    .paragraph1{
+        margin:16px 10px 0 29px;
+    }
+    
+    .paragraph2{
+        margin:16px 10px 0 29px;
+    }
+
+
+
+    /* atmosphere */
+
+    #layers {
+        width: 220px;
+        margin: 40px 0 0 75px;
+    }
+    
+    #text-layout{
+        width: 310px;
+        height: auto;
+    }
+    
+    .at-div {
+        position: relative;
+        margin: 0 0 100px 25px;
+        display: inline-block;
+        width: 558px;
+        height: 174px;
+        overflow: hidden;
+    }
+    
+    .header {
+        font-size: xx-large;
+        right: 315px;
+        bottom: 118px;
+    }
+    
+    .defination {
+        bottom: 15%;
+        width: 265px;
+        font-size: small;
+        left: 29px;
+    }
+    
+    .atmosphere2 {
+        position: relative;
+        margin-top: 70px;
+    }
+    
+    .atmosphere2 dl {
+        padding: 0 11px 0 11px;
+        z-index: 1;
+        margin: -140px 0 0 0;
+    }
+    
+    dd {
+        padding: 0 0 0 60px;
+    }
+    
+    .atmosphere2 img {
+        position: absolute;
+        left: 80px;
+        top: -76px;
+        z-index: -1;
+        display: none;
+    }
+
+    .function{
+        height: 465px;
+        width: 328px;
+    }
+
+    .function img{
+        margin: -11px 0 0 -127px;
+    }
+
+    .function h2{
+        bottom: 340px;
+        left: 18px;
+        font-size: x-large;
+    }
+
+    .function ol{
+        left: 25px;
+        top: 142px;
+        word-spacing: normal;
+        letter-spacing: normal;
+    }
+
+    #atm{
+        position: inherit;
+        width: 280px;
+        top: 24px;
+        right: -20px;
+    }
+
+
+
+
+
+
+    /* layers */
+    .defi-layers{
+        right: 38px;
+        font-weight: 300px;
+    }
+
+    .defi-layers h1{
+        font-size: x-large;
+    }
+
+    .defi-layers P{
+        font-size: large;
+    }
+    
+
+
+    /* font-language-override: ; */
+    /* footre */
+
+    footer{
+        height: calc(100px - 15px);
+    }
+    .content{
+        margin-top: 45px;
+    }
+    .socialmedia{
+        right: 90px;
+        top:50px
+    }
+}
+

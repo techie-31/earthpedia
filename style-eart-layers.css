@@ -1,0 +1,59 @@
+#go{
+    width: 49rem;
+    height: auto;
+    transform: rotate(-30deg);
+    margin-left: 6.5rem;
+}
+
+.earth-layers{
+    margin-top: 5rem;
+    position: relative;
+}
+
+.defi-layes{
+    display: inline-block;
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+    overflow: hidden;
+    height: auto;
+    width: 55.5rem;
+}
+
+.defi-layes img{
+    height: 23.5rem;
+    width: auto;
+    margin: 2rem auto auto 4.5rem;
+}
+
+.defi-layes h1{
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(201, 34, 34);
+    text-shadow: .5rem .2rem .6rem  gray;
+}
+
+.defi-layes p{
+    font-size: x-large;
+}
+
+.earth-layers1 dt{
+    font-weight: bold;
+}
+
+.earth-layers1 img{
+    margin: 5rem 0 0 7.5rem;
+}
+.earth-layers1 dl{
+    margin: -13.2rem 1.5rem 0 18.8rem;
+    font-size: large;
+}
+
+.earth-layers1 dd{
+    padding-left: 3rem;
+}
+
+.earth-layers1 p{
+    margin:0 1.5rem 0 22.2rem;
+    font-size: large;
+}

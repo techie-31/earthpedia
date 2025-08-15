@@ -1,0 +1,102 @@
+#layers {
+    width: 33.5rem;
+    height: auto;
+    margin: 5.5rem 0 0 10rem;
+    transform: rotate(30deg);
+}
+
+/* #text-layout{
+    margin: 0 0 88px 240px;
+} */
+
+.at-div {
+    position: relative;
+    margin: 0 0 10.1rem 16.8rem;
+    display: inline-block;
+    width: 55.8rem;
+    height: 30.7rem;
+    overflow: hidden;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: xxx-large;
+    position: absolute;
+    right: 15.2rem;
+    bottom: 23.5rem;
+    color: rgb(31, 139, 143);
+    text-shadow: 0.2rem 0.3rem 0.5rem gray;
+    display: block;
+}
+
+.defination {
+    position: absolute;
+    bottom: 30%;
+    width: 50rem;
+    font-size: x-large;
+    left: 3.8rem;
+}
+
+.atmosphere2 {
+    position: relative;
+    margin-top: 7rem;
+}
+
+.atmosphere2 dl {
+    padding: 0 3rem 0 15.5rem;
+    z-index: 1;
+    font-size: large;
+}
+
+dd {
+    padding: 0 0 0 6rem;
+}
+
+.atmosphere2 img {
+    position: absolute;
+    left: 8rem;
+    top: -7.6rem;
+    z-index: -1;
+}
+
+.function {
+    height: 50rem;
+    width: 71.8rem;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.function h2 {
+    position: absolute;
+    bottom: 34rem;
+    left: 6rem;
+    font-size: xx-large;
+}
+
+.function img {
+    margin: 0 0 0 5rem;
+}
+
+.function ol {
+    position: absolute;
+    left: 16rem;
+    top: 17.3rem;
+    word-spacing: 0.5rem;
+    /* letter-spacing: 3px; */
+    font-weight: 500;
+    font-size: large;
+}
+
+#atm {
+    width: 35.5rem;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 16rem;
+    right: 18rem;
+    box-shadow: 0.4rem 1.1rem 1rem 0.3rem gray;
+}
+
+.main-function {
+    position: relative;
+}
