@@ -1,4 +1,4 @@
-# Earthpidia
+# Earthpedia
 
 This repository contains a website that provides detailed information about Earth's atmosphere and core.
 
